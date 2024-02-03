@@ -1,0 +1,36 @@
+.background__img img {
+    width: 100%;
+}
+
+.visualization_text1 {
+    color: #FFF;
+    font-size: 150px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    text-transform: uppercase; 
+    position: absolute;
+    top: 472px;
+    right: 436px;
+}
+
+.visualization__background {
+    width: auto;
+    height: 238px;
+    background: black;
+    position: relative;
+    bottom: 4px;
+}
+
+
+.visualization_text2 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 450px;
+}
