@@ -48,16 +48,20 @@ const Header = () => {
           </div>
           <ul>
             <li>
-              <a href="">О нас</a>
+              <a href="">O нас</a>
+              {/* <Link to="/">O нас</Link> */}
             </li>
             <li>
-             <a href=""> Услуги</a>
+              <a href="">Услуги</a>
+               {/* <Link to="/about">Услуги</Link> */}
             </li>
             <li>
               <a href="">Наши проекты</a>
+             {/* <Link to="/services">Наши проекты</Link>  */}
             </li>
             <li>
               <a href="">Контакты</a>
+              {/* <Link to="/contacts">Контакты</Link> */}
             </li>
 
           </ul>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './homepage.css'
+import ProductPage from '../ProductPage/ProductPage';
 
 const HomePage = () => {
     return (
@@ -7,6 +8,7 @@ const HomePage = () => {
             <div className="background__img">
                <img src="./images/Rect.png" alt="" /> 
             </div>
+
                <div className="visualization__background"></div>
             <div className="container">
                 <div className="visualization">
@@ -24,6 +26,8 @@ const HomePage = () => {
                     </p>
                 </div>
             </div>
+            
+           <ProductPage/>
         </header>
     );
 };
