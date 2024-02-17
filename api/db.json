@@ -1,19 +1,24 @@
 {
-  "posts": [
+  "services": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "Проектирование эскизных и рабочих чертежей! Для согласования в",
+      "img": "https://img5.lalafo.com/i/posters/original/c6/44/cc/ea8cd26789ce04ba0ade25198f.jpeg",
+      "id": 6
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "Проектирование эскизных и рабочих чертежей! Для согласования в",
+      "img": "https://img5.lalafo.com/i/posters/original/c6/44/cc/ea8cd26789ce04ba0ade25198f.jpeg",
+      "id": 6
+    },
+    {
+      "title": "Проектирование эскизных и рабочих чертежей! Для согласования в",
+      "img": "https://img5.lalafo.com/i/posters/original/c6/44/cc/ea8cd26789ce04ba0ade25198f.jpeg",
+      "id": 6
+    },
+    {
+      "title": "Проектирование эскизных и рабочих чертежей! Для согласования в",
+      "img": "https://img5.lalafo.com/i/posters/original/c6/44/cc/ea8cd26789ce04ba0ade25198f.jpeg",
+      "id": 6
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

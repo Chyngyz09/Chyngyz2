@@ -1,5 +1,7 @@
 import React from "react"; 
 import "./header.css"; 
+
+import { Link } from "react-router-dom";
  
 const Header = () => { 
   return ( 
@@ -46,24 +48,27 @@ const Header = () => {
           <div className="nav__sign">
             <img src="./images/logo.png" alt="" />
           </div>
-          <ul>
+          <ul className="snack__bar">
             <li>
-              <a href="">O нас</a>
-              {/* <Link to="/">O нас</Link> */}
+              {/* <a href="">O нас</a> */}
+              <Link to="/">O нас</Link>
+            </li>
+             <li>
+              {/* <a href="">Услуги</a> */}
+               <Link to="/services">Услуги</Link>
             </li>
             <li>
-              <a href="">Услуги</a>
-               {/* <Link to="/about">Услуги</Link> */}
+              {/* <a href="">Наши проекты</a> */}
+             <Link to="/projects">Наши проекты</Link> 
             </li>
             <li>
-              <a href="">Наши проекты</a>
-             {/* <Link to="/services">Наши проекты</Link>  */}
+              {/* <a href="">Контакты</a> */}
+              <Link to="/contacts">Контакты</Link>
             </li>
             <li>
-              <a href="">Контакты</a>
-              {/* <Link to="/contacts">Контакты</Link> */}
+              {/* <a href="">Контакты</a> */}
+              <Link to="/creation">Создание Услуг</Link>
             </li>
-
           </ul>
         </nav> 
       </div>

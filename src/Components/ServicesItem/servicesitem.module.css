@@ -1,0 +1,18 @@
+.services h4 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2%;
+}
+
+.services {
+    display: flex;
+    position: relative;
+    top: 105px;
+}
+
+.services__info img {
+    width: 141px;
+    height: 101px;
+}
+  

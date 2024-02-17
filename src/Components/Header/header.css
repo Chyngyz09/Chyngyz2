@@ -8,6 +8,8 @@
 
  
 .header__contacts { 
+    position: sticky;
+    top: 0px;
     height: 70px; 
     background: #1c1c1c; 
 } 
@@ -89,7 +91,7 @@ nav {
     padding: 0px 0px 44px 0px;
 }
 
-ul {
+.snack__bar {
     display: flex;
     gap: 60px;
 }

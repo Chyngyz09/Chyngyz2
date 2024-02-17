@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
 const Contacts = () => {
     return (
         <div>
-            
-        </div>
+          
+      </div>
     );
 };
 
